@@ -190,10 +190,10 @@
 	"download_kernel=" \
 		"tftpboot ${loadaddr} ${kernel_file};\0" \
 	"factory_nfs=" \
-	     "setenv ipaddr 192.168.1.102;" \
-	     "setenv gatewayip 192.168.1.1;" \
+	     "setenv ipaddr 192.168.31.102;" \
+	     "setenv gatewayip 192.168.31.1;" \
 	     "setenv netmask 255.255.255.0;" \
-	     "setenv serverip 192.168.1.2;" \
+	     "setenv serverip 192.168.31.2;" \
 	     "echo BOOT: FACTORY (LEG);" \
 	     "run boot_nfs\0" \
 	"boot_swu_recovery=" SWUPDATE_RECOVERY_PROCEDURE "\0" \
